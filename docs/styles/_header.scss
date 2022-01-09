@@ -1,0 +1,45 @@
+header {
+  background-color: hsl(0, 0%, 100%);
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  width: 100vw;
+  padding: 15px;
+  position: -webkit-sticky;
+  position: sticky;
+  top: 0;
+  z-index: 999;
+  nav {
+    a {
+      text-decoration: none;
+      color: hsl(233, 8%, 62%);
+      padding-right: 25px;
+      position: relative;
+      &:hover {
+        color: black;
+      }
+    }
+  }
+  nav a::after {
+    content: '';
+    position: absolute;
+    left: 50%;
+    bottom: -23px;
+    transform: translateX(-50%) scaleX(0);
+    transform-origin: 50% 50%;
+    width: 75%;
+    height: 4px;
+    background-color: hsl(136, 65%, 51%);
+    transition: transform 250ms;
+    border-radius: 500px;
+    margin-left: -10px;
+  }
+  nav a:hover::after {
+    transform: translateX(-50%) scaleX(1);
+  }
+  
+  .hamburger, .close {
+    display: none;
+  }
+}
+

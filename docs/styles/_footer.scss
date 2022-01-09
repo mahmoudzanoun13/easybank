@@ -1,0 +1,56 @@
+footer {
+  background-color: hsl(233, 26%, 24%);
+  width: 100vw;
+  .btn {
+    display: flex;
+    justify-content: flex-end;
+  }
+  .col-1, .col-2, .col-3 {
+    flex: 1;
+    padding: 30px 0;
+    p {
+      padding: 10px 0;
+    }
+  }
+  .last-col {
+    flex: 3;
+    padding: 30px 0;
+    p {
+      display: flex;
+      justify-content: flex-end;
+      align-items: center;
+      color: hsl(233, 8%, 62%);
+      padding: 30px 0 0 0;
+    }
+  }
+  a {
+    text-decoration: none;
+    color: hsl(0, 0%, 98%);
+    &:hover {
+      color: hsl(136, 65%, 51%);
+    }
+  }
+  .col-1 {
+    padding: 11px 0 0 0;
+    .logo {
+      padding-bottom: 33px;
+      .easybank {
+        fill: hsl(0, 0%, 100%);
+      }
+    }
+    .social-icons {
+      display: flex;
+      margin-left: -4px;
+      padding-top: 15px;
+      div {
+        padding: 0 5px;
+        .icon {
+          &:hover {
+            fill: hsl(136, 65%, 51%);
+            cursor: pointer;
+          }
+        }
+      }
+    }
+  }
+}

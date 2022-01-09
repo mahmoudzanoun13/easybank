@@ -1,0 +1,38 @@
+.section-1 {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 100vw;
+  .container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 100vh;
+    margin: 0 0 0 150px;
+    .text {
+      width: 465px;
+      h1 {
+        font-size: 45px;
+        font-weight: 100;
+        padding-bottom: 30px;
+      }
+      p {
+        line-height: 1.5;
+        padding-bottom: 30px;
+        color: hsl(233, 8%, 62%);
+      }
+    }
+    .image-mockups {
+      flex-basis: 50%;
+      position: relative;
+      top: -115px;
+      left: 80px;
+      .mockups {
+        position: absolute;
+        top: 140px;
+        left: 180px;
+        z-index: 888;
+      }
+    }
+  }
+}

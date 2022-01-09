@@ -1,0 +1,25 @@
+.section-2 {
+  background-color: hsl(220, 16%, 96%);
+  width: 100vw;
+  padding: 80px 0;
+  .text {
+    margin: 0 150px;
+    width: 650px;
+    h2 {
+      padding-bottom: 20px;
+    }
+    p {
+      padding-bottom: 80px;
+    }
+  }
+  img {
+    padding-bottom: 30px;
+  }
+  h3 {
+    padding-bottom: 30px;
+  }
+  p {
+    color: hsl(233, 8%, 62%);
+  }
+  margin-top: -50px;
+}
