@@ -510,6 +510,7 @@ body {
   font-size: 18px;
   background-color: #fafafa;
   max-width: 1441px;
+  overflow-x: hidden;
 }
 
 body .btn-request-invite {
